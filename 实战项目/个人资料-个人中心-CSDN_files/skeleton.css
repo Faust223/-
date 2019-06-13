@@ -1,0 +1,106 @@
+html, body {
+    min-height: 100%;
+    border: 0;
+    font-family: "PingFangSC-Regular" !important;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#F7F9FC;
+}
+/* *{
+    box-sizing:border-box;
+} */
+
+div, span, object, iframe, img, table, caption, thead, tbody,
+tfoot, tr, tr, td, article, aside, canvas, details, figure, hgroup, menu,
+nav, footer, header, section, summary, mark, audio, video,ul,li,dl,dt,dd {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+ul,li,ol,dl,dt,dd{
+    list-style: none;
+}
+.navBar{
+    /*height:40px;*/
+    background:#fff;
+    margin-bottom:16px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+}
+.main_con{
+    max-width:1200px;
+    margin:0 auto;
+    height:100%;
+}
+.main_con_l{
+    width:199px;
+    float:left;
+    background:#fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+}
+.main_con_l ul li{
+    height:35px;
+    width:50%;
+    background:#efefef;
+    margin:0 0 8px 16px;
+}
+.main_con_r{
+    margin-left:200px;
+    padding:0 32px;
+    background:#fff;
+    min-height:90%;
+    /* border-left:solid 1px #efefef; */
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+    padding-bottom:100px;
+}
+.main_con_r_t{
+    padding:20px 0;
+}
+.main_con_r_t_con{
+    width:150px;
+    height:30px;
+    background:#efefef;
+}
+.main_con_r_list dt{
+    width:100px;
+    float:left;
+}
+.main_con_r_list dt div{
+    width:100px;
+    height:100px;
+    background: #efefef;
+    border-radius: 50%;
+}
+.main_con_r_list dd{
+    margin-left:0;
+}
+.main_con_r_list dd .list_t span,.main_con_r_list dd .list_t strong{
+    display:block;
+    width:220px;
+    height:26px;
+    background: #efefef;
+}
+.main_con_r_list dd .list_t strong{
+    margin-top:8px;
+    width:300px;
+}
+.main_con_r_list dd .list_b p{
+    width:100px;
+    height:24px;
+    background:#efefef;
+    margin-bottom:8px;
+}
+.main_con_r_list dd .list_b p:nth-child(2){
+    width:500px;
+}
+.main_con_r_list dd .list_b p:nth-child(4){
+    width:130px;
+}
+.main_con_r_list dd .list_b p:nth-child(6){
+    width:240px;
+}
+.main_con_r_list dd .list_b p:nth-child(7){
+    width:350px;
+}
