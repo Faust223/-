@@ -1,0 +1,44 @@
+1.用户表 user
+
+学  号 StudentID
+密  码 pwd
+
+
+2.选择题表 Choice
+序号  id
+类型  type
+考题  questions 
+选项A optionA
+选项B optionB
+选项C optionC
+选项D optionD
+答案  Answer
+操作（修改 提交<确认提交---提交成功> 查询）
+
+
+3.判断题表  judge 
+序号  id
+类型  type
+考题  questions
+ 对    T
+ 错    F
+答案  Answer
+
+
+4.填空题表  blanks 
+序号  id
+类型  type
+考题  questions 
+答案  Answer
+
+5.查询成绩表  achievement
+科目  Subject 
+时长  Duration
+总分  Fraction 
+题数  Number 
+开始时间  start
+结束时间  end
+考生姓名  name
+总得分    score 
+
+

@@ -1,0 +1,40 @@
+用户表——user
+
+id
+username	用户姓名
+usernumber	用户手机号
+pwd		用户密码
+user_role	用户角色	对应role表中的user_role
+
+
+角色表——role
+
+id
+user_role	角色		对应user表中的user_role
+
+
+权限表——permissions
+
+id
+user_per	功能
+role_id		对应角色	对应role表中的id
+
+
+考试表——test
+
+id
+testname	考试名称
+
+
+语文试卷——language_written
+
+id
+type		题目类型
+subject_con	题目内容
+options_a	选项a
+options_b	选项b
+options_c	选项c
+options_d	选项d
+answer		答案
+difficulty	难易程度
+chapter		对应章节
